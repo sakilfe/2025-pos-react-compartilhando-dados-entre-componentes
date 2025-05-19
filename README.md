@@ -4,7 +4,7 @@
 - **Objetivo**: mostrar os conceitos básicos de React
 - **Público alvo**: alunos da disciplina de POS (Programação Orientada a Serviços) do curso de Infoweb (Técnico Integrado em Informática para Internet) no CNAT-IFRN (Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central)
 - **Professor**: [L A Minora](https://github.com/leonardo-minora/)
-- **Aluno**: [Sâmia Fernandes](https://github.com/sakilfe/)
+- **Aluna**: [Sâmia Fernandes](https://github.com/sakilfe/)
 
 
 ## Pré-requisitos
@@ -628,11 +628,14 @@ ver projeto no [github](https://github.com/infoweb-pos/2025-pos-react-compartilh
    - `<div className="grid grid-cols-1 md:grid-cols-2 gap-4">`
 
 ### O que faremos
-1. Criar um componente React para adicionar novas tarefas `ModalTarefa`.
+1. Fork deste repositório (lembre de colocar seu nome no início desse arquivo)
+2. Clonar numa máquina local e codar
+   - lembrar de `npm i` e `npm run dev`
+4. Criar um componente React para adicionar novas tarefas `ModalTarefa`.
    - criar um input
    - criar estado interno para guardar o input
    - criar um botão para fechar a tela e retornar ao `Home`
-2. Modificar `Home` da variável `tarefas` para estado `const [tarefas... = useState...`.
-3. Criar uma função que adicione uma nova tarefa no estado `tarefas`. Ver [Updating Arrays in State](https://react.dev/learn/updating-arrays-in-state).
-4. Passar função para o novo componente `ModalTarefa`
+5. Modificar `Home` da variável `tarefas` para estado `const [tarefas... = useState...`.
+6. Criar uma função que adicione uma nova tarefa no estado `tarefas`. Ver [Updating Arrays in State](https://react.dev/learn/updating-arrays-in-state).
+7. Passar função para o novo componente `ModalTarefa`
    - atualizar o botão de fechar para executar a função de adicionar nova tarefa
