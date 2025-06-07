@@ -99,7 +99,6 @@ const ModalTarefa: React.FC<ModalTarefaProps> = ({ onAdicionar, onFechar }) => {
 	);
 };
 
-// COMPONENTE PRINCIPAL
 const Home = () => {
 	const [tarefas, setTarefas] = useState<TarefaInterface[]>(dados);
 	const [mostrarModal, setMostrarModal] = useState(false);
